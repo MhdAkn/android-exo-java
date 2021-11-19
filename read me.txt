@@ -1,0 +1,14 @@
+/* Réalisation d'un programme qui gère différents types d'animaux
+
+Comme animal aurez des loups, des chiens, des chats, des lions et des tigres.
+Tous ces animaux ont des points commun(héritage). 
+Comme attribut ils auront une couleur, un poids, un cri, une façon de se déplacer,
+qu'ils mangent et boivent quelque chose.La classe Animal est déclarée abstraite et
+que les classes filles héritent de celle-ci. De plus, les classes filles ne redéfinissent
+que deux méthodes sur quatre, on en conclut donc que ces deux méthodes doivent être abstraites.
+Nous ajouterons deux constructeurs à nos classes filles : un par défaut et un autre comprenant
+les deux paramètres d'initialisation.Ici, il aura faire deux sous-classes : Canin et Felin, 
+qui hériteront d'Animal et dont nos objets eux-mêmes hériteront !
+la méthode deplacement()sera redéfinir dans cette classe, car  les félins se déplacent d'une 
+certaine façon et les canins d'une autre.Les chiens doivent  être amicaux les tigres comiques ;
+*/
